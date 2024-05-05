@@ -24,12 +24,13 @@ function updateCart() {
             totalSum -= cartItems[index];
             cartItems.splice(index, 1);
             updateTotalSum();
-            updateCart();
+            updateCart(); // Oppdater handlekurvlisten etter at et element er fjernet
         };
         listItem.appendChild(removeButton);
         cartList.appendChild(listItem);
     });
 }
+
 
 function calculateTotal() {
     document.getElementById("totalValue").innerText = totalSum;
