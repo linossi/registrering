@@ -29,3 +29,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Legg til denne CSS-koden for å skjule totalboksen i utgangspunktet */
+.hidden {
+    display: none;
+}
+
+#totalBox {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#totalBox h3 {
+    margin-top: 0;
+}

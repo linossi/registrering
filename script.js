@@ -13,3 +13,8 @@ function calculateTotal() {
     alert("Total sum: $" + totalSum);
 }
 
+function calculateTotal() {
+    document.getElementById("totalValue").innerText = totalSum;
+    document.getElementById("totalBox").classList.remove("hidden");
+}
+
