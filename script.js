@@ -9,3 +9,7 @@ function updateTotalSum() {
     document.getElementById("totalSum").innerText = totalSum;
 }
 
+function calculateTotal() {
+    alert("Total sum: $" + totalSum);
+}
+
