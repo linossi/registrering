@@ -21,7 +21,7 @@ function updateCart() {
         const removeButton = document.createElement("button");
         removeButton.textContent = "Fjern";
         removeButton.onclick = function() {
-            totalSum -= item;
+            totalSum -= cartItems[index];
             cartItems.splice(index, 1);
             updateTotalSum();
             updateCart();
