@@ -35,3 +35,4 @@ function calculateTotal() {
     document.getElementById("totalValue").innerText = totalSum;
     document.getElementById("totalBox").classList.remove("hidden");
 }
+
