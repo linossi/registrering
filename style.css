@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.beholder {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produkt {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.produkt img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.produkt-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.handlekurv {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.handlevare {
+    margin-bottom: 10px;
+}
+
+.handletotal {
+    font-weight: bold;
+}
