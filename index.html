@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generell Butikk</title>
-    <link rel="stylesheet" href="stiler.css">
+    <title>Butikk</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Generell Butikk</h1>
-        <p>Velkommen til vår butikk!</p>
+        <h1>Butikk</h1>
+        <a href="login.html">Logg inn</a>
     </header>
-    <div class="beholder">
-        <section id="produkter"></section>
-        <section id="handlekurv" class="handlekurv" style="display: none;"></section>
+    <div class="container">
+        <h2>Produkter</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Produkt 1</h3>
+            <p>Pris: $10</p>
+            <button onclick="addToCart(10)">Legg til i handlekurv</button>
+        </div>
+        <!-- Legg til flere produkter her -->
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
+
 
