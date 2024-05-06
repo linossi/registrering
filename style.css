@@ -18,11 +18,11 @@
     text-align: center;
 }
 
-.button {
+button {
     cursor: pointer;
 }
 
-.footer {
+footer {
     background-color: #f4f4f4;
     padding: 20px;
     position: absolute;
