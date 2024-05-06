@@ -1,8 +1,7 @@
-let totalSum = 0;
-let cartItems = [];
+let cartItems = []; // Endre til en array av objekter
 
 function addToCart(productName, price) {
-    cartItems.push(productName);
+    cartItems.push({name: productName, price: price}); // Legg til både navn og pris i handlekurven
     updateCart();
 }
 
@@ -11,7 +10,7 @@ function updateCart() {
     cartList.innerHTML = "";
     cartItems.forEach((item, index) => {
         const listItem = document.createElement("li");
-        listItem.textContent = item;
+        listItem.textContent = item.name + " - Pris: $" + item.price; // Endre teksten til å inkludere både navn og pris
         const removeButton = document.createElement("button");
         removeButton.textContent = "Fjern";
         removeButton.onclick = function() {
@@ -24,6 +23,10 @@ function updateCart() {
 }
 
 function calculateTotal() {
+    let totalSum = 0;
+    cartItems.forEach(item => {
+        totalSum += item.price; // Legger til prisen på hvert produkt i totalsummen
+    });
     document.getElementById("totalValue").innerText = totalSum;
     document.getElementById("totalBox").classList.remove("hidden");
 }
