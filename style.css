@@ -30,16 +30,15 @@ footer {
 }
 
 
-
 /* Legg til denne CSS-koden for å skjule totalboksen i utgangspunktet */
 .hidden {
     display: none;
 }
 
 #totalBox {
-    background-color:#af4caf;
+    background-color:#ffffff;
     padding: 10px;
-    border: 2px solid #af4caf;
+    border: 2px solid #bfbfbf;
     border-radius: 5px;
     margin-top: 20px;
 }
