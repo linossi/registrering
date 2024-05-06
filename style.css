@@ -48,3 +48,15 @@ footer {
     margin-top: 0;
 }
 
+.header {
+    background-color: #4CAF50; /* Grønn farge */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px; /* Rundede hjørner */
+}
+
+.header-content h1 {
+    font-size: 36px; /* Stor skriftstørrelse */
+    color: white; /* Hvit skriftsfarge */
+    text-transform: uppercase; /* Store bokstaver */
+}
